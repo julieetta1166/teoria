@@ -1,9 +1,10 @@
 2) Investigar sobre big data, sus caracteristicas principales: volumen, velocidad, variedad, veracidad y valor
+ RESPUESTA
 ¿Qué es Big Data?
 Big Data hace referencia a conjuntos de datos extremadamente grandes y complejos que no pueden ser gestionados ni procesados con las herramientas tradicionales de bases de datos. La importancia de Big Data radica en que, con el análisis adecuado, se pueden extraer insights valiosos y tomar decisiones informadas en diversas áreas, como negocios, ciencia, tecnología y más.
 
 Características Principales de Big Data
-Se suelen identificar 5 V's clave que describen las características de Big Data. Estas son Volumen, Velocidad, Variedad, Veracidad (o "Pedacidad") y Valor.
+Se suelen identificar 5 V's clave que describen las características de Big Data. Estas son Volumen, Velocidad, Variedad, Veracidad y Valor.
 
 1. Volumen
 El volumen hace referencia a la cantidad de datos generados y almacenados. Big Data implica una enorme cantidad de datos, mucho más allá de lo que se puede manejar con las herramientas tradicionales.
@@ -26,7 +27,7 @@ Ejemplo: Los datos de Big Data pueden incluir texto de correos electrónicos, re
 
 Aplicaciones: Procesamiento de lenguaje natural (NLP) para analizar texto, análisis de imágenes y videos (como reconocimiento facial), análisis de sentimientos a partir de comentarios en redes sociales.
 
-4. Veracidad (Pedacidad)
+4. Veracidad 
 La veracidad se refiere a la fiabilidad y precisión de los datos. En el caso de Big Data, no todos los datos son de alta calidad, lo que puede afectar la calidad del análisis y la toma de decisiones. Es crucial contar con mecanismos para evaluar y garantizar que los datos sean confiables.
 
 Ejemplo: Los datos pueden ser incompletos, erróneos o inconsistentes, lo que puede llevar a conclusiones incorrectas si no se gestionan adecuadamente.
