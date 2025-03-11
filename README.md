@@ -1,14 +1,16 @@
 # teoria
-Investigar los conceptos basicos sobre la IA y Machine Language
-Objetivos: Familializarse con los terminos  y los definiciones fundamentales
-Temas:
-Tipos de IA(Debil, general y super inteligente)
-Machine Learning
-Tipos de ML
-Debe incluir definiciones, ejemplos y aplicaciones practicas de IA y 
-Confeccionarlo en gip hub con formato markdown
+1)Investigar los conceptos basicos sobre la IA y Machine Language
+·Objetivos: Familializarse con los terminos  y los definiciones fundamentales
+·Temas:
+*Tipos de IA(Debil, general y super inteligente)
+*Machine Learning
+*Tipos de ML
+*Debe incluir definiciones, ejemplos y aplicaciones practicas de IA y 
+*Confeccionarlo en gip hub con formato markdown
 
-Conceptos Básicos de IA y Machine Learning
+ RESPUESTA
+ 
+*Conceptos Básicos de IA y Machine Learning
 Objetivo
 El objetivo de este documento es familiarizarse con los términos y definiciones fundamentales relacionados con la Inteligencia Artificial (IA) y el Machine Learning (ML). Este conocimiento es esencial para comprender los principios que subyacen a las tecnologías modernas que usamos en la vida diaria.
 
