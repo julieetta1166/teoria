@@ -79,120 +79,39 @@ Las librerías de Python son conjuntos de módulos que permiten a los desarrolla
 Uso: Manipulación de arrays y matrices multidimensionales, y matemáticas de alto rendimiento.
 Instalación: pip install numpy
 Ejemplo de uso: Operaciones con arrays, álgebra lineal, etc.
-python
-Copiar
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-print(arr)
+
 2. Pandas
 Uso: Manipulación y análisis de datos estructurados. Pandas es ideal para trabajar con tablas (DataFrames).
 Instalación: pip install pandas
 Ejemplo de uso: Análisis de datos, transformación de datos, manejo de bases de datos.
-python
-Copiar
-import pandas as pd
-df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-print(df)
+
 3. Matplotlib
 Uso: Visualización de datos mediante gráficos 2D. Muy utilizado en análisis de datos y en ciencia de datos.
 Instalación: pip install matplotlib
 Ejemplo de uso: Crear gráficos de líneas, barras, histogramas, etc.
-python
-Copiar
-import matplotlib.pyplot as plt
-x = [1, 2, 3, 4]
-y = [1, 4, 9, 16]
-plt.plot(x, y)
-plt.show()
+
 4. Seaborn
 Uso: Visualización de datos basada en Matplotlib, pero más fácil de usar y con un estilo más atractivo para gráficos complejos.
 Instalación: pip install seaborn
 Ejemplo de uso: Crear gráficos estadísticos avanzados.
-python
-Copiar
-import seaborn as sns
-sns.set(style="darkgrid")
-tips = sns.load_dataset("tips")
-sns.scatterplot(x="total_bill", y="tip", data=tips)
+
 5. Scikit-learn
 Uso: Machine learning. Incluye herramientas para la clasificación, regresión, clustering, etc.
 Instalación: pip install scikit-learn
 Ejemplo de uso: Crear modelos predictivos (regresión, clasificación, etc.).
-python
-Copiar
-from sklearn.linear_model import LinearRegression
-model = LinearRegression()
+
 6. TensorFlow
 Uso: Librería de machine learning y deep learning desarrollada por Google.
 Instalación: pip install tensorflow
 Ejemplo de uso: Crear redes neuronales para tareas como clasificación de imágenes, procesamiento de lenguaje natural, etc.
-python
-Copiar
-import tensorflow as tf
+
 7. Flask / Django
 Uso: Desarrollo web. Flask es un micro-framework muy flexible, mientras que Django es un framework más completo y robusto para aplicaciones web.
-Instalación de Flask: pip install flask
-Instalación de Django: pip install django
-Ejemplo básico de Flask:
-
-python
-Copiar
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-if __name__ == '__main__':
-    app.run()
 8. BeautifulSoup
 Uso: Análisis de documentos HTML y XML. Muy utilizado para web scraping.
 Instalación: pip install beautifulsoup4
 Ejemplo de uso: Extraer datos de páginas web.
-python
-Copiar
-from bs4 import BeautifulSoup
+
 *Investigar sobre pip
 pip es la herramienta de gestión de paquetes de Python. Es utilizada para instalar, actualizar o eliminar paquetes (librerías y dependencias) en tu entorno de desarrollo de Python. Es la forma más sencilla y común de manejar las librerías que utilizas en proyectos.
 
-Algunas de las funcionalidades de pip:
-Instalar un paquete:
-
-pip install <nombre_del_paquete>
-Ejemplo: pip install numpy instala la librería NumPy.
-Actualizar un paquete:
-
-pip install --upgrade <nombre_del_paquete>
-Ejemplo: pip install --upgrade numpy actualiza la versión de NumPy.
-Desinstalar un paquete:
-
-pip uninstall <nombre_del_paquete>
-Ejemplo: pip uninstall numpy desinstala NumPy.
-Listar paquetes instalados:
-
-pip list
-Esto muestra todos los paquetes instalados en tu entorno actual de Python.
-Mostrar información sobre un paquete:
-
-pip show <nombre_del_paquete>
-Ejemplo: pip show numpy muestra detalles sobre la librería NumPy.
-Instalar desde un archivo de requerimientos:
-
-pip install -r requirements.txt
-Esto instala todos los paquetes que están listados en un archivo requirements.txt, utilizado a menudo para compartir dependencias de un proyecto.
-Ver la versión de pip instalada:
-
-pip --version
-Ejemplo de Uso de pip
-Imagina que estás trabajando en un proyecto y quieres instalar varias librerías necesarias, como NumPy y Pandas. Para hacerlo, simplemente ejecutarías:
-
-bash
-Copiar
-pip install numpy pandas
-Si necesitas instalar un archivo de requerimientos, por ejemplo:
-
-bash
-Copiar
-pip install -r requirements.txt
-Este comando leerá el archivo requirements.txt que contiene una lista de las librerías y sus versiones necesarias para tu proyecto.
