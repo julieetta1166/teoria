@@ -45,3 +45,29 @@ Conclusión
 Big Data está transformando el mundo moderno, y las organizaciones que aprovechan sus características y capacidades pueden obtener ventajas significativas. Sin embargo, manejar Big Data no es una tarea sencilla, ya que requiere infraestructura adecuada, herramientas de procesamiento avanzadas y habilidades especializadas en análisis de datos.
 
 La clave para obtener el máximo provecho de Big Data radica en abordar adecuadamente las 5 V's: Volumen, Velocidad, Variedad, Veracidad y Valor.
+
+17/03
+Continuacion:
+* En terminos generales, ¿Cuando decimos que manejamos grandes volumenes de datos y cuando no?
+En términos generales, hablamos de "grandes volúmenes de datos" (o big data) cuando estamos tratando con cantidades de datos que son tan grandes, complejas o rápidas que las herramientas tradicionales de procesamiento y análisis no son suficientes para manejarlos de manera eficiente. Esto no solo depende del tamaño en términos de volumen, sino también de otros factores, como la velocidad, la variedad y la veracidad de los datos. A continuación te doy algunos puntos clave que definen cuándo se manejan grandes volúmenes de datos:
+
+1. Volumen
+Se considera que estamos ante grandes volúmenes de datos cuando la cantidad de datos supera las capacidades de almacenamiento y procesamiento de bases de datos tradicionales. Esto puede incluir petabytes o exabytes de datos, aunque no siempre es necesario llegar a estos niveles para considerar que estamos en el ámbito de big data.
+
+En un contexto más sencillo, podríamos decir que se trata de grandes volúmenes cuando el volumen de datos no puede ser manejado fácilmente con herramientas de bases de datos convencionales, como MySQL o PostgreSQL.
+
+2. Velocidad (Velocidad de Generación o Procesamiento)
+Si los datos se generan o se procesan a una velocidad extremadamente alta, como ocurre con los datos en tiempo real (por ejemplo, sensores IoT, redes sociales, transacciones financieras), entonces también estamos ante grandes volúmenes.
+Herramientas tradicionales pueden no ser capaces de analizar datos que se generan a decenas de gigabytes por segundo.
+3. Variedad
+La variedad de los datos también juega un papel importante. Big data no solo se refiere a la cantidad de datos, sino también a su diversidad. Esto incluye datos estructurados, semiestructurados y no estructurados (como texto, imágenes, videos, datos de sensores, etc.).
+Cuando los datos provienen de fuentes diversas, como redes sociales, dispositivos móviles, bases de datos, archivos multimedia, etc., el desafío se vuelve mucho más complejo.
+4. Veracidad
+La veracidad se refiere a la calidad y precisión de los datos. Cuando los datos son imprecisos o inconsistentes, como ocurre con los datos que provienen de múltiples fuentes (por ejemplo, comentarios en redes sociales o sensores defectuosos), gestionarlos se convierte en un desafío.
+5. Complejidad en el Análisis
+Si los datos requieren técnicas avanzadas de análisis, como machine learning, inteligencia artificial o análisis en tiempo real, estamos en un contexto de big data.
+Estos análisis suelen requerir arquitecturas especializadas, como Hadoop, Spark o bases de datos distribuidas, que permiten la manipulación eficiente de grandes volúmenes de datos.
+En resumen:
+No manejas grandes volúmenes de datos cuando los datos pueden ser almacenados y procesados eficientemente con herramientas tradicionales y no requieren técnicas complejas de análisis.
+Manejas grandes volúmenes de datos cuando la cantidad de datos, su velocidad, la variedad de formatos y la necesidad de realizar análisis avanzados o en tiempo real superan las capacidades de las herramientas convencionales.
+
