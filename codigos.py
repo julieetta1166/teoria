@@ -12,7 +12,7 @@ import pandas as pd
 df=pd.read_csv ('StudentsPerformance.csv')
 print(df)
 
-#COMO MOSTRAR LAS FILAS
+#FUNCIONES
 import pandas as pd
 df=pd.read_csv ('StudentsPerformance.csv')
 print(df.head(20)) #Mostrar las primeras filas
@@ -22,3 +22,5 @@ print (df.shape) #Muestra la cantidad de filas y columnas
 print(df.dtypes)#Muestra los tgipos de datos de cada columna
 print(df.info())  #Muestra las filas para limpiar los datos non-null(incompletas)
 print(df.describe())#Muestra datos estadisticos de la tabla en general
+print(df["gender"].head) #Muestra la columna que pidamos
+print(df[['gender','lunch']].head) #Como mostrar dos columnas
