@@ -25,3 +25,4 @@ print(df.info())  #Muestra las filas para limpiar los datos non-null(incompletas
 print(df.describe())#Muestra datos estadisticos de la tabla en general
 print(df["gender"].head) #Muestra la columna que pidamos
 print(df[['gender','lunch']].head) #Como mostrar dos columnas
+print(df.mean()) #Muestra la media
