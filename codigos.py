@@ -11,3 +11,10 @@ print (df)
 import pandas as pd
 df=pd.read_csv ('StudentsPerformance.csv')
 print(df)
+
+#COMO MOSTRAR LAS FILAS
+import pandas as pd
+df=pd.read_csv ('StudentsPerformance.csv')
+print(df.head(20)) #Mostrar las primeras filas
+print(df.tail())  #Mostrar las ultimas filas
+print(df.to_string()) #Mostrar todo
