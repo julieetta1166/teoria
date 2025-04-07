@@ -20,3 +20,5 @@ print(df.tail())  #Mostrar las ultimas filas
 print(df.to_string()) #Mostrar todo
 print (df.shape) #Muestra la cantidad de filas y columnas
 print(df.dtypes)#Muestra los tgipos de datos de cada columna
+print(df.info())  #Muestra las filas para limpiar los datos non-null(incompletas)
+print(df.describe())#Muestra datos estadisticos de la tabla en general
