@@ -1,4 +1,11 @@
 ACTIVIDAD 1:
+Abrir archivo csv
+Mostrar la columna gender maxcore
+Mostrar la cantiddad de fila y columna que tiene
+Mostrar las primeras 40 filas
+Mostrar las ultimas 15 lineas
+Mostrar la media
+Mostrar los tipos de datos de cada columna 
 
 import pandas as pd
 df=pd.read_csv ('StudentsPerformance.csv')
@@ -10,7 +17,7 @@ print(df.dtypes) #Muestra los tipos de datos de cada columna
 print(df.mean()) #Muestra la media
 
 ACTIVIDAD 2:
-Abrir rl csv
+Abrir el csv
 Mostar las 3 ultimas columnas
 Mostrar las primeras 100 filas
 Mostrar la media, el minimo, maximo y cantidad
