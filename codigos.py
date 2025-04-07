@@ -18,3 +18,5 @@ df=pd.read_csv ('StudentsPerformance.csv')
 print(df.head(20)) #Mostrar las primeras filas
 print(df.tail())  #Mostrar las ultimas filas
 print(df.to_string()) #Mostrar todo
+print (df.shape) #Muestra la cantidad de filas y columnas
+print(df.dtypes)#Muestra los tgipos de datos de cada columna
