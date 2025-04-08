@@ -16,3 +16,13 @@ colores=['gold','lightcoral','lightskyblue','lightgreen']
 plt.pie(datos,labels=label,colors=colores,autopct='%1.1f%%',startangle=140)
 plt.axis('equal')
 plt.show()
+
+GRAFICO DE DISPERSION
+import matplotlib.pyplot as plt #importar libreria
+x=[1,2,3,4,5,6,7,8,9,10]
+y=[2,5,8,11,14,17,20,23,26,29]
+plt.scatter(x,y,color='blue',marker='o')
+plt.title('Grafico de dispersion')
+plt.xlabel('eje x')
+plt.ylabel('eje y')
+plt.show()
