@@ -20,6 +20,11 @@ a=np.random.randint(1,100,size=1000)
 df['columna de arreglo']=a
 print(df)
 
+SUMAR VARIAS COLUMNAS
+import pandas as pd
+import numpy as np
+df=pd.read_csv ('StudentsPerformance.csv')
+print(df['math score']+ df['reading score']+ df['writing score'] )#SUMAR TRES COLUMNAS
 CREAR NUMEROS DECIMALES
 import pandas as pd
 import numpy as np
