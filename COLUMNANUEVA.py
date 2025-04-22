@@ -25,6 +25,7 @@ import pandas as pd
 import numpy as np
 df=pd.read_csv ('StudentsPerformance.csv')
 print(df['math score']+ df['reading score']+ df['writing score'] )#SUMAR TRES COLUMNAS
+
 CREAR NUMEROS DECIMALES
 import pandas as pd
 import numpy as np
@@ -49,3 +50,5 @@ print(df['math score'].count) #cuenta las filas
 print(df['math score'].mean) 
 print(df['math score'].std) #estandar
 print(df.head) 
+df.sort_values('math score')#ordenan columnas de mayor a menor
+df.sort_values(['math score'], ascending= false)#ordena columnas de forma ascendente
