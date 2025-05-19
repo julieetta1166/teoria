@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('users.csv')
 
-paises_objetivo = ['Spain', 'France', 'Turkey']
-filtro = (df['edad'] > 20) & (df['pais'].isin(paises_objetivo))
+paises= ['Spain', 'France', 'Turkey']
+filtro = (df['edad'] > 20) & (df['pais'].isin(paises))
 usuarios_filtrados = df[filtro]
 
 nombres = usuarios_filtrados['nombre'].tolist()
